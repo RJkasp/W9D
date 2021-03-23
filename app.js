@@ -69,10 +69,10 @@ func_2b("coding is hard");
 // Function 3 - This function will take in 1 argument expected to be an array of strings. 
 // The function will return the first element in the array that starts with "ph"
 
-function func_3(arr){
-    for(i = 0; i < arr.length; i++){
-        if(arr[i].startsWith('ph')){
-            return arr[i];
+function func_3(arr){     // creating function 3 
+    for(i = 0; i < arr.length; i++){    //loops through array
+        if(arr[i].startsWith('ph')){    // checks to see while looping thru array if any start with ph 
+            return arr[i];              //and if so stops there and prints first word in array starting with ph
         }
     }
 }
@@ -80,3 +80,8 @@ function func_3(arr){
 var array = func_3([`dont know if this is right`, `phenomianl`, `noway`, `phone home`])
 console.log(array)
 
+var array = func_3([`i think this is right`, `noway`, `phone home`])
+console.log(array)
+
+var array = func_3([`i think im right`, `possibly`, `phat`])
+console.log(array)
