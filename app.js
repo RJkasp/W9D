@@ -77,11 +77,11 @@ function func_3(arr){     // creating function 3
     }
 }
 
-var array = func_3([`dont know if this is right`, `phenomianl`, `noway`, `phone home`])
-console.log(array)
+var array = func_3([`dont know if this is right`, `phenomianl`, `noway`, `phone home`]);
+console.log(array);
 
-var array = func_3([`i think this is right`, `noway`, `phone home`])
-console.log(array)
+var array = func_3([`i think this is right`, `noway`, `phone home`]);
+console.log(array);
 
-var array = func_3([`i think im right`, `possibly`, `phat`])
-console.log(array)
+var array = func_3([`i think im right`, `possibly`, `phat`]);
+console.log(array);
